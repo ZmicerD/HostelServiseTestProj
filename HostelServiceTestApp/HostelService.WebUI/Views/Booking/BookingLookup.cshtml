@@ -1,0 +1,132 @@
+﻿@model IEnumerable<HostelService.Domain.Entities.Booking>
+
+@{
+    ViewBag.Title = "BookingLookup";
+}
+
+<h2>BookingLookup</h2>
+
+@using (Html.BeginForm("BookingLookup", "Booking")) {
+    if (Session["UserType"].ToString() == "admin") {
+        <p>
+            @Html.TextBox("customerIdParam")
+            <input type="submit" value="Search by CustomerID" /> 
+        </p>
+    }
+}
+
+@if (Session["UserType"].ToString() == "admin") {
+    <p>
+        @Html.ActionLink("Load All Bookings", "BookingLookupAll", "Booking", null, new { @class = "btn btn-default" })
+    </p>
+}
+
+@if (Session["UserType"].ToString() == "admin") {
+    <p>
+        @Html.ActionLink("Create new", "BookingCreate", "Booking", null, new { @class = "btn btn-primary" })
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BookingID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Card.CardNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CBBookingID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.CustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocalCustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstNightDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfDays)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfPersons)
+        </th>                       
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeOfRoom)
+        </th>
+        <th></th>
+        <th></th>        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookingID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Card.CardNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CBBookingID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.CustomerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocalCustomerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstNightDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfDays)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfPersons)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeOfRoom)
+        </td>
+        <td>
+            @if (Session["UserType"].ToString() == "admin") {
+                @Html.ActionLink("Edit", "BookingEdit", "Booking", new { bookingIdParam = item.BookingID }, new { @class = "btn btn-default" })
+            }            
+        </td>
+        <td>
+            @if (Session["UserType"].ToString() == "admin") {
+                @Html.ActionLink("Delete", "BookingDelete", "Booking", new { bookIdStr = Convert.ToString(item.BookingID) }, new { @class = "btn btn-default" })
+            }
+            
+        </td>
+    </tr>
+}
+
+</table>
+
+@Html.ActionLink("Back to CustomerLookup", "CustomerLookup", "Customer", null, new { @class = "btn btn-default" })

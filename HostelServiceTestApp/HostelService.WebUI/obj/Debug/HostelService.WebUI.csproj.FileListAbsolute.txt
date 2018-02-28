@@ -1,0 +1,98 @@
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\csc.exe
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\vbc.exe
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\VBCSCompiler.exe
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.dll.config
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.Domain.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Helpers.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Razor.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Deployment.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Razor.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.Domain.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Razor.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Deployment.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Razor.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Helpers.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Mvc.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\WebActivator.dll
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.xml
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.pdb
+c:\users\admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\Admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.SqlServer.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\csc.exe
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\vbc.exe
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\VBCSCompiler.exe
+D:\HostelServiceTestApp\HostelService.WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.dll.config
+D:\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.WebUI.pdb
+D:\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.SqlServer.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.Domain.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Helpers.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Mvc.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Razor.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Deployment.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Razor.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\WebActivator.dll
+D:\HostelServiceTestApp\HostelService.WebUI\bin\HostelService.Domain.pdb
+D:\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\EntityFramework.SqlServer.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.pdb
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.pdb
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Common.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.pdb
+D:\HostelServiceTestApp\HostelService.WebUI\bin\Ninject.Web.Mvc.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Razor.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Deployment.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Webpages.Razor.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Helpers.xml
+D:\HostelServiceTestApp\HostelService.WebUI\bin\System.Web.Mvc.xml
+D:\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.csprojResolveAssemblyReference.cache
+D:\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.dll
+D:\HostelServiceTestApp\HostelService.WebUI\obj\Debug\HostelService.WebUI.pdb

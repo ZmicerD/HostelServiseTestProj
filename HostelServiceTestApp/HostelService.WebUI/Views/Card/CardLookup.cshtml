@@ -1,0 +1,125 @@
+﻿@model IEnumerable<HostelService.Domain.Entities.Card>
+
+@{
+    ViewBag.Title = "CardLookup";
+}
+
+<h2>CardLookup</h2>
+
+@using (Html.BeginForm("CardLookup", "Card")) {
+    if (Session["UserType"].ToString() == "admin") {
+        <p>
+            @Html.TextBox("customerIdParam")
+            <input type="submit" value="Search by CustomerID" />  
+        </p>      
+    }
+}
+
+@if (Session["UserType"].ToString() == "admin") {
+    <p>
+        @Html.ActionLink("Load all cards", "CardLookupAll", "Card", null, new { @class = "btn btn-default" })
+    </p>
+}
+
+@if (Session["UserType"].ToString() == "admin") {
+    <p>
+        @Html.ActionLink("Create new", "CardCreate", "Card", null, new { @class = "btn btn-primary" })
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CardID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocalCustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CardNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IssueDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpirationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BirthYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mobile)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PermissionStatus)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CardID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocalCustomerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CardNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IssueDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpirationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BirthYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mobile)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PermissionStatus)
+        </td>
+        <td>
+            @if (Session["UserType"].ToString() == "admin") { 
+                @Html.ActionLink("Edit", "CardEdit", "Card", new { cardId = item.CardID }, new { @class = "btn btn-default" })                
+            }
+        </td>
+        <td>
+            @if (Session["UserType"].ToString() == "admin") {
+                @Html.ActionLink("Delete", "CardDelete", "Card", new { cardIdStr = Convert.ToString(item.CardID) }, new { @class = "btn btn-default" })
+            }
+        </td>
+    </tr>
+}
+
+</table>
+
+@Html.ActionLink("Back to CustomerLookup", "CustomerLookup", "Customer", null, new { @class = "btn btn-default" });
